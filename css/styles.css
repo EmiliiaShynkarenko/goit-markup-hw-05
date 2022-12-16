@@ -144,7 +144,7 @@ img {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
 
     background-color: var(--accent-color);
     border-radius: 2px;
@@ -610,6 +610,7 @@ img {
     background: #FFFFFF;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .button-close-icon {
